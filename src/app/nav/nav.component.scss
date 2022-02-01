@@ -1,6 +1,7 @@
 mat-sidenav {
     margin: 16px;
     width: 200px;
+    min-width: calc(20vw - 16px);
     border-right: none;
     background: #000000;
     color: white;
@@ -9,7 +10,10 @@ mat-sidenav {
     text-align: center;
 }
 
-mat-sidenav-container {
+
+
+mat-sidenav-content {
+    margin-left: 0px !important;
     height: 100vh;
 }
 
@@ -32,14 +36,11 @@ mat-sidenav-container {
     border-radius: 50%;
 }
 
-.name {
-    margin-top: 8px;
-    font-weight: normal;
+.title {
+    color: lightgrey;
 }
 
-.designation {
-    margin-top: 2px;
-    font-size: 0.7rem;
+.subtitle {
     color: lightgrey;
 }
 
@@ -61,7 +62,7 @@ mat-divider {
     max-width: 20vw;
     height: 100vh;
     background-color: #000000;
-    position:relative;
+    position:fixed;
 }
 
 

@@ -5,12 +5,22 @@
     src: url(assets/fonts/Montserrat-Light.ttf) format("opentype");
 }
 
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(assets/fonts/Montserrat-ExtraLight.ttf) format("opentype");
+}
+
 html, body { 
     height: 100%; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
 }
 
 body { 
     margin: 0; 
-    font-family: Montserrat-Light, "Helvetica Neue", sans-serif; 
+    padding: 0;
+    font-family: Montserrat-ExtraLight, "Helvetica Neue", sans-serif; 
 }
 

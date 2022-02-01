@@ -1,19 +1,19 @@
 <mat-sidenav-container>
     <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
 
-        <h4 class="name">Encre Orage Studio</h4>
-        <p class="designation">Tatoo artist</p>
+        <h1 class="title is-6 is-size-5-desktop">Encre Orage Studio</h1>
+        <h2 class="subtitle is-7 is-size-6-desktop">Tatoo artist</h2>
 
         <mat-divider></mat-divider>
 
-        <button mat-button class="menu-button" (click)="sidenav.toggle()" routerLink="/home" routerLinkActive="active">
+        <a mat-button class="menu-button" href="http://localhost:4200/" routerLinkActive="active">
             <mat-icon>home</mat-icon>
             <span>Home</span>
-        </button>
-        <button mat-button class="menu-button" (click)="sidenav.toggle()" routerLink="/studio" routerLinkActive="active">
+        </a>
+        <a mat-button class="menu-button" href="http://localhost:4200/studio" routerLinkActive="active">
             <mat-icon>palette</mat-icon>
             <span>Studio</span>
-        </button>
+        </a>
         <button mat-button class="menu-button">
             <mat-icon>alternate_email</mat-icon>
             <span>Contact</span>

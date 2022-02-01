@@ -1,16 +1,45 @@
+.home {
+    margin-left: 20vw;
+
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+}
+
 .presentation {
     text-align: center;
     min-height: 50vh;
 }
-.title {
-    padding-top: 5vh;
+h1 {
+    padding-top: 13vh;
 }
 
-.subtitle {
-    margin-top: 5vh;
+h2 {
+    padding-top: 1vh;
 }
 
 
 mat-divider {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+// gallery
+.gallery {
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+.line {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: calc(40vw - 10px);
+    display:inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0;
 }

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'encre-orage-studio';
+  scrollHaut = window.pageYOffset; 
+  scrollGauche = window.pageXOffset;
 }

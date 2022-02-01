@@ -1,15 +1,20 @@
-<div class="presentation">
-    <h1 class="title is-3">ENCRE ORAGE STUDIO</h1>
-    <h2 class="subtitle is-5">Studio de tatouage privé</h2>
-    <h2 class="subtitle is-4">
-        17 rue d'Adelaiau 
-        91470 Forges les Bains - France
-    </h2>
-    <h2 class="subtitle is-6">uniquement sur rendez-vous*</h2>
-</div>
+<div class=home>
+    <div class="presentation">
+        <h1 class="title is-4 is-size-1-desktop">ENCRE ORAGE STUDIO</h1>
+        <h2 class="subtitle is-6 is-size-5-desktop">Studio de tatouage privé</h2>
+        <h2 class="subtitle is-6 is-size-5-desktop">
+            17 rue d'Adelaiau <br>
+            91470 Forges les Bains - France
+        </h2>
+        <h3 class="subtitle is-7 is-size-6-desktop">uniquement sur rendez-vous*</h3>
+    </div>
 
-<mat-divider></mat-divider>
+    <mat-divider></mat-divider>
 
-<div class="gallery">
-    <ngx-gallery [options]="galleryOptions" [images]="gallery" class="ngx-gallery"></ngx-gallery>
+    <div class="gallery">
+    <div class="line" *ngFor="let picture of pictures">
+        <img class="img" src={{picture.url}}>
+        <img class="img" src={{picture.url2}}>
+    </div>
+    </div>
 </div>
