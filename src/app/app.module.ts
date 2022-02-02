@@ -15,6 +15,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { NavComponent } from './nav/nav.component';
 import { StudioComponent } from './studio/studio.component';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { ContactComponent } from './contact/contact.component';
+import { AccessComponent } from './access/access.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
     NavigationComponent,
     FooterComponent,
     NavComponent,
-    StudioComponent
+    StudioComponent,
+    ContactComponent,
+    AccessComponent
   ],
   imports: [
     BrowserModule,
