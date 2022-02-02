@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -23,7 +22,6 @@ import { AccessComponent } from './access/access.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavigationComponent,
     FooterComponent,
     NavComponent,
     StudioComponent,
