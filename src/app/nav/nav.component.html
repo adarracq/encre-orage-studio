@@ -2,25 +2,25 @@
     <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
 
         <h1 class="title is-6 is-size-5-desktop">Encre Orage Studio</h1>
-        <h2 class="subtitle is-7 is-size-6-desktop">Tatoo artist</h2>
+        <h2 class="subtitle is-7 is-size-6-desktop">Salon de tatouage privé</h2>
 
         <mat-divider></mat-divider>
 
-        <a mat-button class="menu-button" href="http://localhost:4200/" routerLinkActive="active">
+        <a mat-button class="menu-button" routerLink="/" routerLinkActive="active">
             <mat-icon>home</mat-icon>
-            <span>Home</span>
+            <span>Accueil</span>
         </a>
-        <a mat-button class="menu-button" href="http://localhost:4200/studio" routerLinkActive="active">
+        <a mat-button class="menu-button" routerLink="studio" routerLinkActive="active">
             <mat-icon>palette</mat-icon>
             <span>Studio</span>
         </a>
-        <a mat-button class="menu-button" href="http://localhost:4200/contact" routerLinkActive="active">
+        <a mat-button class="menu-button" routerLink="contact" routerLinkActive="active">
             <mat-icon>alternate_email</mat-icon>
             <span>Contact</span>
         </a>
-        <a mat-button class="menu-button" href="http://localhost:4200/access" routerLinkActive="active">
+        <a mat-button class="menu-button" routerLink="access" routerLinkActive="active">
             <mat-icon>place</mat-icon>
-            <span>Access</span>
+            <span>Accès</span>
         </a>
 
         <mat-divider></mat-divider>
@@ -31,12 +31,14 @@
 
         <mat-divider></mat-divider>
 
+        <img class="logo2 mat-elevation-z8" src="../../assets/white-vertical-logo.png" />
+
+        <mat-divider></mat-divider>
+
         <div class="links-social">
             <a alt="link to facebook page" href="https://www.facebook.com/"><img alt="logo-facebook" src="../../assets/icon-fb.png"></a>
-            <a alt="link to instagram page" href="https://www.instagram.com/"><img alt="logo-instagram" src="../../assets/icon-instagram.png"></a>  
+            <a alt="link to instagram page" href="https://www.instagram.com/encre_orage/"><img alt="logo-instagram" src="../../assets/icon-instagram.png"></a>  
         </div>
-
-        <img class="logo2 mat-elevation-z8" src="../../assets/white-vertical-logo.png" />
 
     </mat-sidenav>
     <mat-sidenav-content>

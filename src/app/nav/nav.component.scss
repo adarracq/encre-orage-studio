@@ -1,7 +1,7 @@
 mat-sidenav {
     margin: 16px;
     width: 200px;
-    min-width: calc(20vw - 16px);
+    min-width: calc(18vw - 16px);
     border-right: none;
     background: #000000;
     color: white;
@@ -51,8 +51,7 @@ mat-divider {
 
 #sidebar {
     float: left;
-    width: 20%;
-    max-width: 20vw;
+    max-width: 18vw;
     height: 100vh;
     background-color: #000000;
     position:fixed;
@@ -61,11 +60,15 @@ mat-divider {
 
 #open-close {
     color: white;
-    width: 20vw;
+    width: 18vw;
 }
 
 .logo3 {
     position:absolute; 
-    bottom:0;
+    bottom:10vh;
     left:0;
+}
+
+span {
+    font-family: Montserrat-Light, "Helvetica Neue", sans-serif; 
 }
